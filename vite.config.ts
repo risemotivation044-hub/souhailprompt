@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  // Relative asset URLs — the same dist/ must work both at the site root
-  // (https://<subdomain>.surething.host/) and under the owner-only preview
-  // path (/api/websites/<id>/deployments/<id>/preview/).
+  // Relative asset URLs so the same dist/ works at a domain root and under a
+  // sub-path (e.g. GitHub Pages: /souhailprompt/).
   base: "./",
 });

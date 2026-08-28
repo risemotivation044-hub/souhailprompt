@@ -408,6 +408,7 @@ function render() {
 
     <footer>
       كيخدم كامل داخل المتصفح ديالك — بلا حساب، بلا مفتاح API، وفكرتك ماكتمشي لحتى سيرفور.
+      <span class="foot-brand">Souhail Prompt © ${new Date().getFullYear()}</span>
     </footer>
   `;
 

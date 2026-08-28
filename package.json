@@ -1,5 +1,7 @@
 {
-  "name": "video-prompt-studio",
+  "name": "souhailprompt",
+  "version": "1.0.0",
+  "description": "Souhail Prompt — Arabic-first cinematic video prompt generator. Runs fully in the browser.",
   "private": true,
   "type": "module",
   "scripts": {
